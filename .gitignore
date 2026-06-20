@@ -1,0 +1,24 @@
+# --- OS / editor junk ---
+.DS_Store
+.ipynb_checkpoints/
+
+# --- Claude Code local state (worktrees etc.) ---
+.claude/
+
+# --- Large data binaries (kept locally, not in git) ---
+*.parquet
+*.npz
+
+# --- Notebook & data backups ---
+*.bak
+*_bak
+*.bak_*
+.bak_phase1/
+
+# --- Scratch / test notebooks ---
+test_*.ipynb
+data_check.ipynb
+
+# --- Intermediate logs & json emitted by analysis scripts ---
+week12_scripts/_*.log
+week12_scripts/_*.json

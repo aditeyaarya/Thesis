@@ -1,0 +1,8 @@
+model,parameter,coefficient,p_standard_clustered,p_wild_bootstrap,wild_statistic,n_clusters,survives_wild_5pct,survives_wild_10pct,engine
+H2_Model6_PBI,ecb_z_lag1,-0.1034,0.0019,0.0474,-3.0978,23,True,True,wildboottest WCR(11) rademacher B=9999
+H2_Model6_PBI,eu_gdp_z_lag1,0.0767,0.032,0.4958,2.1439,23,False,False,wildboottest WCR(11) rademacher B=9999
+H2_Model6_PBI,eu_recession_lag1,-0.0852,0.4212,0.5709,-0.8044,23,False,False,wildboottest WCR(11) rademacher B=9999
+H2_CLIP_semantic,ecb_z_lag1,-0.4571,0.0,0.0002,-7.3644,23,True,True,wildboottest WCR(11) rademacher B=9999
+H2_CLIP_semantic,eu_gdp_z_lag1,0.0653,0.0841,0.1361,1.7275,23,False,False,wildboottest WCR(11) rademacher B=9999
+H1_stackedDiD_PBI,etp1,-0.411,0.0009,0.002,-3.3122,25,True,True,FWL+WCR-t rademacher B=4999 (pkg ref=0.0023)
+H1_stackedDiD_PBI,etp2,-0.3046,0.0083,0.0126,-2.6404,25,True,True,FWL+WCR-t rademacher B=4999 (pkg ref=0.0126)
